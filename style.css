@@ -1,0 +1,66 @@
+html{
+    margin: 0;
+}
+nav{
+    height: 3.7rem;
+    width: 100%;
+}
+.canva{
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    color: aqua;
+    text-align: center;
+}
+.button{
+    height: 130px;
+    width: 130px;
+    border: solid black 2px;
+    display: inline-block;
+    text-align: center;
+   
+}
+#dark{
+    background-color: rgb(45, 44, 44);
+}
+#white{
+    background-color: azure;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+@media (max-width: 7680px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    nav a {
+        margin: 10px 0;
+    }
+
+    .button {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        height: 60px;
+        width: 60px;
+        margin: 5px;
+    }
+}
